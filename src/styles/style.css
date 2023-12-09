@@ -1,5 +1,5 @@
 html {
-  font-family: sans-serif;
+  font-family: "SB Sans Display";
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   height: 100%;
@@ -2245,7 +2245,7 @@ textarea.w-select {
 }
 
 .paragraph {
-  font-family: Cadiz, sans-serif;
+  font-family: "SB Sans Display", sans-serif;
   color: #fff;
   font-size: 26px;
   line-height: 46px;
@@ -2390,7 +2390,7 @@ textarea.w-select {
   bottom: auto;
   width: 24vw;
   height: 32vw;
-  background-image: url("https://uploads-ssl.webflow.com/60805733151b6718a943682f/60928b52e4daea7385c83796_Clou_Bild_Brew_Cheffe_Tiny.jpg");
+  background-image: url("../images/img3.jpg");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -2401,7 +2401,7 @@ textarea.w-select {
   bottom: 0;
   width: 24vw;
   height: 32vw;
-  background-image: url("https://uploads-ssl.webflow.com/60805733151b6718a943682f/6092898b1e55532c3b27fe06_Clou_Bild_Brew_Ma%CC%88si.png");
+  background-image: url("../images/img4.jpg");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -2412,14 +2412,14 @@ textarea.w-select {
   min-height: 750px;
   min-width: 1000px;
   background-color: #000;
-  background-image: url("https://uploads-ssl.webflow.com/60805733151b6718a943682f/60995e3222efd79da1531a40_Brewloop_Export_03_comp.gif");
+  background-image: url("../images/video.gif");
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .heading-text {
   margin-bottom: 40px;
-  font-family: Cadiz, sans-serif;
+  font-family: "SB Sans Display", sans-serif;
   color: #fff;
   font-size: 56px;
   line-height: 72px;
@@ -2511,7 +2511,7 @@ textarea.w-select {
 }
 
 .heading_animation {
-  font-family: Cadiz, sans-serif;
+  font-family: "SB Sans Display", sans-serif;
   color: #fff;
   font-size: 10vw;
   line-height: 10vw;
@@ -2617,16 +2617,17 @@ textarea.w-select {
   right: auto;
   width: 30vw;
   height: 40vw;
-  background-image: url("https://uploads-ssl.webflow.com/60805733151b6718a943682f/6093fbec9ce2387ebe052fdc_Slideshow_Kleben_04_Tiny.jpg");
+  background-image: url("../images/img5.png");
   background-position: 50% 50%;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .slideshow_2 {
   position: absolute;
   width: 30vw;
   height: 40vw;
-  background-image: url("https://uploads-ssl.webflow.com/60805733151b6718a943682f/6093fbec985b86111a5a652b_Slideshow_Kleben_03_Tiny.jpg");
+  background-image: url("../images/img2.jpg");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -2636,7 +2637,7 @@ textarea.w-select {
   right: 4vw;
   width: 30vw;
   height: 40vw;
-  background-image: url("https://uploads-ssl.webflow.com/60805733151b6718a943682f/6093fbec11d7ff29f38cae79_Slideshow_Kleben_02_Tiny.jpg");
+  background-image: url("../images/img6.png");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -2747,7 +2748,7 @@ textarea.w-select {
 }
 
 .scroll-text {
-  font-family: Cadiz, sans-serif;
+  font-family: "SB Sans Display", sans-serif;
   color: grey;
   font-size: 18px;
   font-weight: 500;
@@ -2921,7 +2922,7 @@ textarea.w-select {
 
 .abschlusslinks {
   margin-top: 80px;
-  font-family: Cadiz, sans-serif;
+  font-family: "SB Sans Display", sans-serif;
   color: #fff;
   font-size: 20px;
   line-height: 30px;
@@ -3220,19 +3221,6 @@ textarea.w-select {
 }
 
 @font-face {
-  font-family: "Cadiz";
-  src: url("https://uploads-ssl.webflow.com/60805733151b6718a943682f/609298cde69fd4474f3bfc39_Cadiz_Bold.otf")
-    format("opentype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Cadiz";
-  src: url("https://uploads-ssl.webflow.com/60805733151b6718a943682f/609298cc250e9e33eabb5e54_Cadiz_Medium.otf")
-    format("opentype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
+  font-family: "SB Sans Display";
+  src: url("../font/SBSansDisplay-Regular.ttf");
 }
